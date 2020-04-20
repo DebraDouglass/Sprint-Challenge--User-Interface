@@ -187,6 +187,7 @@ footer nav a {
 
 @media (max-width: 800px) {
     .container {
+        background-color: white;
         display: inline-block;
         border: 1px solid red;
     }
