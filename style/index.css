@@ -140,114 +140,6 @@ header .wide-image {
     justify-content: center;
 }
 
-.middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-}
-
-.middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-}
-
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
@@ -295,13 +187,15 @@ footer nav a {
 
 @media (max-width: 800px) {
     .container {
-        max-width: 800px;
-        margin: 0 auto;
-        border: 1px solid red;
-        padding: 20px 1.25%;
+        display: inline-block;
         border: 1px solid red;
     }
+
+    header .wide-image {
+        width: 100%;
+    }
 }
+
   @media(max-width: 500px) {
     .container {
         background: gray;
