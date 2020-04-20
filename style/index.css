@@ -67,13 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1024px;
     margin: 0 auto;
-}
-
-header {
-	width: 100%;
-	text-align: center;
     /* border: 1px solid black; */
 }
 
@@ -81,29 +76,27 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 10px;
-    border: 1px solid black;
-}
-
-header img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header nav a {
-	color: grey;
+	color: #888;
     text-decoration: none;
-    font-size: smaller;
-    /* font-weight: 100; */
-    margin-top: 9px;
-    padding-top: 10px;
+    font-size: 15px;
+    padding: 35px 30px 15px 30px;
     /* border: 1px solid black; */
 }
 
 nav a:hover {
 	transition-property: color, font-weight;
 	transition-duration: 0.5s, 0.5s;
-	color: red;
+	color: #fff;
 	font-weight: bold;
+}
+
+header .wide-image {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .top-content {
@@ -299,3 +292,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid red;
+        padding: 20px 1.25%;
+        border: 1px solid red;
+    }
+}
+  @media(max-width: 500px) {
+    .container {
+        background: gray;
+        border: 1px solid red;
+    }
+  
+    .container header nav {
+      /* display: flex;
+      flex-direction: column; */
+      border: 1px solid red;
+
+    }
+  
+    .container header nav a {
+      /* margin-bottom: 20px; */
+      border: 1px solid red;
+
+    }
+  }
